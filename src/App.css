@@ -1,0 +1,109 @@
+/* App.css */
+
+/* Global styles */
+body, html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color:peachpuff; /* Set a light background color for the body */
+  height: 100%; /* Ensure full height for body and html */
+}
+
+/* Container for centering content */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app takes at least the full height of the viewport */
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+/* Page-specific styles */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background for content area */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+  border-radius: 8px; /* Rounded corners for the container */
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #333; /* Dark color for page titles */
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color:white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out; /* Smooth transform effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift card on hover */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:black;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: black;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 10px;
+  }
+}
+
+/* Navbar styles */
+.navbar-container {
+  background-color: #343a40; /* Dark color for the top section where the navbar will be */
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+/* Ensure the navbar has a dark background and white text */
+.navbar-dark {
+  background-color: #343a40; /* Dark color for the navbar */
+}
+
+.navbar-dark .navbar-brand, 
+.navbar-dark .nav-link {
+  color: white; /* White text color for navbar items */
+}
+
+/* Optional: Hover effect for nav links */
+.navbar-dark .nav-link:hover {
+  color: #d1d1d1; /* Light grey color on hover */
+}
+
+
+/* Ensuring smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}

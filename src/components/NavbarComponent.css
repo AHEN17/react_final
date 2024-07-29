@@ -1,0 +1,40 @@
+/* NavbarComponent.css */
+.navbar-custom {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Space below the brand */
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem; /* Space below the links */
+  }
+  
+  .nav-links .nav-link {
+    margin-right: 1rem; /* Space between links */
+  }
+  
+  .nav-auth {
+    margin-left: auto;
+  }
+  
+  .nav-auth .nav-link {
+    margin-left: 1rem; /* Space between auth links */
+  }
+  
+  /* Adjust font sizes for better alignment if needed */
+  .nav-links .nav-link, .nav-auth .nav-link {
+    font-size: 1rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,..."); /* Customize if needed */
+  }
+  

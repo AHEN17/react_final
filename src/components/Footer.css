@@ -1,0 +1,29 @@
+/* Footer style */
+.footer {
+  background-color: black; /* Dark background color */
+  color: white;
+  padding: 20px 0;
+  position: relative; /* Change to relative or absolute */
+  width: 100%;
+  /* Remove z-index if not needed */
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-link {
+  color: #61dafb;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Ensure there's enough space at the bottom of the content */
+body {
+  margin: 0;
+  padding-bottom: 80px; /* Adjust based on the height of the footer */
+}

@@ -1,0 +1,30 @@
+/* src/components/FAQ.css */
+
+.faq-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for the FAQ section */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .faq-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    margin-bottom: 10px;
+  }
+  
+  .card-header {
+    background-color: #343a40; /* Dark background for accordion headers */
+  }
+  
+  .card-header .btn {
+    color: white;
+  }
+  
+  .card-body {
+    background-color: white; /* White background for the content area */
+  }
+  

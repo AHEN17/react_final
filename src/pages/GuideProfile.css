@@ -1,0 +1,93 @@
+/* GuideProfile.css */
+
+.profile-container {
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .profile-image {/* GuideProfile.css */
+
+    .profile-container {
+      margin-top: 50px; /* Adjust margin as needed */
+    }
+    
+    .profile-image {
+      border-radius: 50%;
+      max-width: 100%;
+    }
+    
+    .profile-details {
+      padding: 20px;
+    }
+    
+    .profile-details h1 {
+      font-size: 2.5rem; /* Example: Adjust heading size */
+      margin-bottom: 20px;
+    }
+    
+    .profile-details p {
+      font-size: 1.1rem; /* Example: Adjust paragraph font size */
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    
+    .profile-details strong {
+      font-weight: bold;
+    }
+    
+    .profile-details .customer-review {
+      font-style: italic;
+      margin-top: 20px;
+    }
+    
+    .profile-details .contact-info {
+      margin-top: 20px;
+    }
+    
+    .profile-details .contact-info a {
+      color: #007bff; /* Example: Adjust link color */
+    }
+    
+    .profile-details .contact-info a:hover {
+      text-decoration: underline;
+    }
+    
+    border-radius: 50%;
+    max-width: 100%;
+  }
+  
+  .profile-details {
+    padding: 20px;
+  }
+  
+  .profile-details h1 {
+    font-size: 2.5rem; /* Example: Adjust heading size */
+    margin-bottom: 20px;
+  }
+  
+  .profile-details p {
+    font-size: 1.1rem; /* Example: Adjust paragraph font size */
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details strong {
+    font-weight: bold;
+  }
+  
+  .profile-details .customer-review {
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .profile-details .contact-info {
+    margin-top: 20px;
+  }
+  
+  .profile-details .contact-info a {
+    color: #007bff; /* Example: Adjust link color */
+  }
+  
+  .profile-details .contact-info a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,22 @@
+/* Blog.css */
+
+.blog-container {
+  padding: 2rem 0;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.blog-card {
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}

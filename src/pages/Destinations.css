@@ -1,0 +1,54 @@
+/* Destinations.css */
+
+/* Style for the overall container */
+.destinations-container {
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  /* Style for each section title */
+  .destinations-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each destination card */
+  .destinations-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .destinations-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for destination images */
+  .destinations-image {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  /* Style for card body */
+  .destinations-card-body {
+    padding: 20px;
+  }
+  
+  /* Style for destination title */
+  .destinations-card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Style for destination description */
+  .destinations-card-description {
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust column layout for smaller screens */
+    .destinations-card {
+      margin-bottom: 20px;
+    }
+  }
+  

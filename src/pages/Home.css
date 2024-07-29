@@ -1,0 +1,130 @@
+/* Container Styles */
+.home-container {
+  padding: 20px; /* Increased padding for better spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-container {
+  background-image: url('../assets/bg.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Adjust the text color for contrast */
+  padding: 40px 0;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 1.5rem;
+}
+
+.home-card {
+  margin-bottom: 20px;
+}
+
+.home-card-title {
+  font-size: 1.25rem;
+}
+
+.home-card-text {
+  font-size: 1rem;
+}
+
+/* Title Styles */
+.home-title {
+  font-size: 4rem; /* Increased font size */
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px; /* Increased bottom margin */
+  text-align: center;
+}
+
+/* Description Styles */
+.home-description {
+  font-size: 1.5rem; /* Increased font size */
+  line-height: 1.6;
+  color: black;
+  text-align: center;
+  max-width: 900px; /* Increased max-width for better readability */
+  margin: 0 auto 40px; /* Increased bottom margin */
+}
+
+
+
+
+.explore-btn:hover {
+  background-color: #333; /* Darker shade on hover */
+}
+
+/* Card Styles */
+.home-card {
+  border: none;
+  transition: transform 0.3s ease;
+  height: 100%;
+  width: 100%; /* Ensure cards take full width */
+  margin-bottom: 30px; /* Increased bottom margin for spacing between cards */
+}
+
+.home-card:hover {
+  transform: translateY(-10px); /* Increased lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Added slightly stronger box-shadow */
+}
+
+.card-img-top {
+  border-top-left-radius: 8px; /* Increased border radius */
+  border-top-right-radius: 8px; /* Increased border radius */
+  height: 300px; /* Increased height for larger images */
+  object-fit: cover; /* Ensure images fit within card */
+}
+
+.home-card-title {
+  font-size: 2.5rem; /* Increased font size */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px; /* Increased space between title and content */
+}
+
+.home-card-text {
+  color: #666;
+  font-size: 1.3rem; /* Increased font size */
+  line-height: 1.6;
+}
+
+/* Button Group Styles */
+.button-group {
+  margin-top: 40px; /* Increased top margin for better separation */
+  display: flex;
+  justify-content: center; /* Center align buttons horizontally */
+}
+
+.explore-btn + .explore-btn {
+  margin-left: 20px; /* Increased left margin to separate buttons */
+}
+/* Carousel Styles */
+.carousel-item img {
+  height: 400px; /* Increased height of carousel images */
+  object-fit: cover; /* Ensure images cover the carousel item */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for captions */
+  border-radius: 8px; /* Rounded corners for caption box */
+  padding: 20px; /* Padding inside the caption box */
+}
+
+.carousel-caption h3 {
+  font-size: 3rem; /* Increased font size of caption title */
+}
+
+.carousel-caption p {
+  font-size: 1.5rem; /* Increased font size of caption text */
+}
+html {
+  scroll-behavior: smooth;
+}
+
